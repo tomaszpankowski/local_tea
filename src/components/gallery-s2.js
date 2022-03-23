@@ -6,10 +6,10 @@ import Col from "../../node_modules/react-bootstrap/Col";
 class GalleryS2 extends Component{
     render(){
         return(    
-            <Container fluid className="d-flex bg-secondary minh-50vh align-items-center py-5">
+            <Container fluid className="gallery-s2 d-flex border-top border-dark bg-secondary minh-50vh align-items-center py-5">
                 <Row className="mx-0 w-100">
-                    <Col xs={12} md={6} className="minh-25vh d-none d-md-block"></Col>
-                    <Col xs={12} md={6} className="minh-50vh d-flex align-items-center">
+                    <Col xs={12} md={7} className="minh-25vh d-none d-md-block"></Col>
+                    <Col xs={12} md={5} className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start pt-5 text-shadow">
                             <h5 className="text-white">
                                 Lorem ipsum
