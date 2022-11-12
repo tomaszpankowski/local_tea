@@ -1,5 +1,38 @@
 @include aoa-bg-series($bg__init,$classes_init);
-
+@media all and (orientation: portrait){
+    .faq{
+        &-s1{
+            background-position-x: right!important;
+        }
+        &-s3{
+            background-position-x: center !important;
+        }
+    }
+    .gallery{
+        &-s1{
+            background-position-x: center!important;
+        }
+        &-s2{
+            background-position-x: right!important;
+        }
+    }
+    .index-s1{
+        background-position-x: center!important;
+    }
+    .info{
+        &-s1{
+            background-position-x: center!important;
+        }
+        &-s2{
+            background-position-x: right!important;
+        }
+    }
+    .login{
+        &-s1{
+            background-position-x: center!important;
+        }
+    }
+}
 
 .faq{
     &-s2,&-s4{
@@ -22,11 +55,21 @@
     }
 }
 .text{
+    &-olive{
+        color: rgb(190, 190, 4) !important;
+    }
     &-shadow{
         text-shadow: $text__shadow;
     }
 }
-
+footer{
+    background-color: olive!important;
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    color: rgb(190, 190, 4) !important;
+    font-family: "KaushanScript";
+    letter-spacing: 2px;
+}
 nav{
     z-index: 10;
 }
@@ -55,6 +98,9 @@ textarea{
             background-color: #999 !important;
             background-blend-mode: multiply!important;
         }
+        &-s1,&-s2{
+            background-position-x: right!important;
+        }
     }
     .gallery,.info{
         &-s1,&-s2{
@@ -64,6 +110,16 @@ textarea{
             }
             background-color: #999 !important;
             background-blend-mode: multiply!important;
+        }
+    }
+    .gallery{
+        &-s1{
+            background-position-x: right!important;
+        }
+    }
+    .info{
+        &-s2,&-s3{
+            background-position-x: right!important;
         }
     }
     .navbar{
