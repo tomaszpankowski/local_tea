@@ -11,7 +11,7 @@ class FaqS3 extends Component{
                     <Col xs={12} md={7} className="minh-25vh d-none d-md-block"></Col>
                     <Col xs={12} md={5} className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start pt-5 text-shadow">
-                            <h2 className="dispaly-6 fw-bold text-white text-shadow">
+                            <h2 className="dispaly-6 fw-bold text-olive text-shadow">
                                 Dolor sit amet         
                             </h2>
                             <p className="text-light">

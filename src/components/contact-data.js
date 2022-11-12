@@ -22,7 +22,7 @@ class ContactData extends Component{
                     </Col>
                     <Col xs={10} sm={6} className="mx-auto text-white p-0 d-flex align-items-center">
                         <div className="p-5">
-                            <h1 className="display-4 fw-bold font-logo text-dark-gray">
+                            <h1 className="display-4 fw-bold font-logo text-olive">
                                 Contact us
                             </h1>
                             <p className="initialism">
